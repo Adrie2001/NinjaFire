@@ -1,0 +1,23 @@
+
+*   {
+    border: 1px solid orange
+}
+
+
+p  {
+    display: block;
+    color: red;
+    font-family: Bahnschrift;
+    position:absolute;
+    font-size: 17px;
+
+background-color: darkred;
+    top: 130vh;
+    right: 32vw;
+
+width: 500px;
+height: 180px;
+
+}
+
+
