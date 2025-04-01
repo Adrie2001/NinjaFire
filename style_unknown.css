@@ -1,0 +1,56 @@
+
+
+body    {
+    background:url(../images/N1NJ4F123_Artwork.png);
+    
+    width: 600px; height: 1280px;
+margin: 0;
+font-family: agora;
+color: red;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    background-color: darkred;
+    color: red;
+width: 1150px;
+height: 60px;
+    top:280vh;
+    right: 8vw;
+    z-index: 2;
+
+    font-family: Agora;
+    font-size: 17px;
+}
+
+
+
+
+
+.button {
+    position: absolute;
+    top: 120vh ;
+    margin-bottom: 20px;
+    left: 60vw ;
+    cursor: pointer;
+    box-shadow: 0 3px darkred;
+}
+
+.button:hover {
+    background-color: brown;
+}
+
+.button:active {
+    background-color: red;
+    box-shadow: 0 3px darkgray;
+    transform: translateY(4px);
+  }
+
+ul    {
+    display: block;
+    background-color: darkred;
+
+}
+
