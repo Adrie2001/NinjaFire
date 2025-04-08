@@ -1,0 +1,30 @@
+body    {
+    background:url(../images/N1NJ4F123_Artwork.png);
+    
+    width: 600px; height: 1280px;
+margin: 0;
+font-family: agora;
+color: red;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    background-color: darkred;
+    color: red;
+width: 1150px;
+height: 60px;
+    top:280vh;
+    right: 8vw;
+    z-index: 2;
+
+    font-family: Agora;
+    font-size: 17px;
+}
+
+ul    {
+    display: block;
+    background-color: darkred;
+
+}
