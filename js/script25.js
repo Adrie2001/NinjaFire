@@ -1,15 +1,28 @@
-// Adding Images for Concept and Storyboard Art in 
+let slideIndex = 1;
+showSlides(slideIndex);
 
-var imageIndex = 1;
-var images = ["./images/IMG_2024.png", "./images/N1NJ4F123-23COV323D.jpg"];
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-function changeImage() {
-var image = document.getElementById('myImage');
-if (imageIndex < images.length) {
-    image.src = images[imageIndex];
-    imageIndex++;
-} else {
-    image.src = images[0];
-    imageIndex = 1;
-    }
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }

@@ -15,11 +15,13 @@ footer {
     color: red;
 width: 1150px;
 height: 60px;
-    top:280vh;
+    top:450vh;
     right: 8vw;
     z-index: 2;
 
     font-family: Agora;
+    font-weight: normal;
+    letter-spacing: 1px;
     font-size: 17px;
 }
 
@@ -28,3 +30,23 @@ ul    {
     background-color: darkred;
 
 }
+
+*{
+  margin:0;
+  padding:0;
+  }
+  .fa{
+  padding:10px;
+  width:100px;
+  margin:2px;
+  text-decoration: none;
+  font-size:50px;
+  color: WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  

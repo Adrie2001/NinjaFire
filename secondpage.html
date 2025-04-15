@@ -9,6 +9,8 @@
     
     <link rel="stylesheet" href="css/style_unknown.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="./js/script25.js">   
 </script>
 
@@ -17,8 +19,8 @@
 <button class="button">Click Here for more Images</button>
 
 <ul>
-    <div class="sidebar"<a href="index.html">About</br></a>
-    <a href="thirdpage.html"><br>Story(OG)</br></a>
+    <div class="sidebar"><a href="index.html">About</a></div>
+    <a href="thirdpage.html"><br>Short Comic</br></a>
     <a href="characterdesign"><br>Character Design</br></a>
 </ul>
 
@@ -37,7 +39,7 @@ top: 220vh;
 left: 33vw;
 
 width: 300px;
-height: 230px;
+height: 240px;
 }
 
 #Logo {
@@ -56,27 +58,29 @@ height: 230px;
         position: absolute;
         position: absolute;
     
-    top: 30vh;
+    top: 26.8vh;
     left: -4.9vw;
-    
+    object-fit: contain;
 }
 
 h1  {
     
     text-align: center;
     position: absolute;
-    font-family:Bahnschrift ;
+    font-family:Agora;
+    letter-spacing:1px;
     font-size: xx-large;
-    color: red;
+    font-weight: normal;
+    color: white;
     background-color: darkred;
 
     top: 36vh;
-    left: 15vw;
+    left: 15.2vw;
     
-            width: 270px;
+            width: 286px;
             height: 162.9px;
 
-            
+            object-fit: contain;
             
 }
     
@@ -86,7 +90,47 @@ p {
     margin: 40% ;
 }
 
+#Profile{
+    width: 30%;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;
+}
 
+#Symbol{
+    width: 40%;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;
+}
+
+#Dimenson{
+    width: 450px;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;
+}
+
+#ModelSheet {
+    width: 450px;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;
+}
+
+#TrueForm {
+    width: 450px;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;
+}
+
+#Comic {
+    width: 450px;
+    left: 55vw;
+    top: 45vh;
+    position: absolute;   
+}
 </style>
 <body>
     
@@ -98,19 +142,57 @@ p {
         
 
                 <!-- Container for the Image Gallery -->
-                 <div class="gallery">
+                 <div class="container">
                     <div class="gallery-item">
 
                     <!-- Full-width images with number-->
-            
-
-
-                    
-                 </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img id="Profile" src="images/N1NJ4F123-23COV323D.jpg">
+                <div class="text">Profile Picture (Concept)</div>
+                     </div>
         
+                     <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img id="Symbol" src="images/IMG_2024.png">
+                        <div class="text">NinjaFire Symbol design (Logo)</div>
+                             </div>
+
+                             <div class="mySlides fade">
+                                <div class="numbertext"></div>
+                                <img id="Dimenson" src="images/NF Scroll.png">
+                                <div class="text">Scroll 3D model</div>
+                                     </div>
+
+                                     <div class="mySlides fade">
+                                        <div class="numbertext"></div>
+                                        <img id="ModelSheet" src="images/NinjaFire ModelSheet Updated.jpg">
+                                        <div class="text">Character Model Sheet Size</div>
+                                             </div>         
+                                             
+                        <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <img id="TrueForm" src="images/N1NJ4F123 True Ultimate Form.jpg">
+                        <div class="text">NinjaFire True Form (Concept)</div>
+                        </div>
+                                             
+                            <!-- Next and previous buttons -->
+  
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
 
 
             <img id="Scroll" src="images/Scroll of The NinjaFire.png">
+           
 
     <img id="N1NJ4F123" src="images/NinjaFire_LogoName.png">
    
@@ -119,6 +201,13 @@ p {
 </a>
 
 
+        <!-- Youtube -->
+   
+        <a href="https:www.youtube.com/c/NinjaFire" class="fa fa-youtube" style="color: white"></a>
+     
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/ninjafirelord/" class="fa fa-instagram" style="color: white;">
+        </a>
     
 <footer id="bottomBar"><br>Contact Information Unknown</br> &copy; 2025</footer>
 
