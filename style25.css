@@ -33,9 +33,9 @@ height: 180px;
     color: WhiteSmoke;
     display: flex;
     flex-direction: column;
-    }
+}
 
     @font-face {
         font-family: Agora;
-        src: url(../media/Agora.otf);
+        src: url(./media/Agora.otf);
       }
