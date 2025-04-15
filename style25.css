@@ -18,3 +18,24 @@ height: 180px;
 }
 
 
+
+
+*{
+    margin:0;
+    padding:0;
+    }
+    .fa{
+    padding:10px;
+    width:100px;
+    margin:2px;
+    text-decoration: none;
+    font-size:50px;
+    color: WhiteSmoke;
+    display: flex;
+    flex-direction: column;
+    }
+
+    @font-face {
+        font-family: Agora;
+        src: url(../media/Agora.otf);
+      }
