@@ -35,8 +35,7 @@ ul    {
   margin:0;
   padding:0;
   }
-
-  .fa {
+  .fa{
   padding:10px;
   width:100px;
   margin:2px;
@@ -54,17 +53,4 @@ ul    {
   @font-face {
     font-family: Agora;
     src: url(./media/Agora.otf);
-  }
-
-  .text_big{
-    font-family: Agora;
-    color: white;
-    font-size: 24px;
-  }
-
-  
-  .text_small{
-    font-family: Agora;
-    color: white;
-    font-size: 14px;
   }
