@@ -1,4 +1,9 @@
-
+body {
+    background: url(../NinjaFire/N1NJ4F123_Artwork.png);
+    width: 600px; height: 1280px;
+    padding: 0;
+    background-attachment: fixed;
+ }
 
 
 p  {
@@ -20,6 +25,7 @@ height: 180px;
 
 
 
+
 *{
     margin:0;
     padding:0;
@@ -33,4 +39,30 @@ height: 180px;
     color: WhiteSmoke;
     display: flex;
     flex-direction: column;
+    }
+
+@font-face {
+    font-family: Agora;
+    src: url(./media/Agora.otf);
+}
+
+.div1 {
+        background-color: darkred;
+        color: red;
+        text-align: center;
+        border-radius: 18px;
+    }
+
+    .div2 {
+        background-color: darkred;
+        color: red;
+        text-align: center;
+        border-radius: 18px;
+    }
+
+    .sidebar {
+        background-color: darkred;
+        color: red;
+        text-align: center;
+        border-radius: 18px;  
     }
